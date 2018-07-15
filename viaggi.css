@@ -1,0 +1,130 @@
+#sfondo{
+  background-color: #DBDADA;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.titolo{
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 40%;
+  color: white;
+}
+
+p{
+  position: relative;
+  margin-top: 125px;
+  font-size: 150%;
+  font-family:'Open Sans', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  z-index: 0;
+}
+
+#box {
+  color:#DBDADA;
+  position: absolute;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  border-color: white;
+  position: absolute;
+}
+
+.box1{
+  width: 180px;
+  height: 180px;
+  margin-top: 190px;
+  margin-left: 390px;
+  transition: 1s;
+}
+
+.box2{
+  width: 180px;
+  height: 180px;
+  margin-top: 190px;
+  margin-left: 670px;
+    transition: 1s;
+}
+
+.box3{
+  width: 180px;
+  height: 180px;
+  margin-top: 190px;
+  margin-left: 950px;
+    transition: 1s;
+}
+
+.box4{
+  width: 180px;
+  height: 180px;
+  margin-top: 470px;
+  margin-left: 390px;
+    transition: 1s;
+}
+
+.box5{
+  width: 180px;
+  height: 180px;
+  margin-top: 470px;
+  margin-left: 670px;
+    transition: 1s;
+}
+
+.box6{
+  width: 180px;
+  height: 180px;
+  margin-top: 470px;
+  margin-left: 950px;
+    transition: 1s;
+}
+
+.box1:hover{
+  transform: scale(2);
+  background: url("sri.jpg");
+  background-size: cover;
+  z-index: 1;
+}
+
+.box2:hover{
+  transform: scale(2);
+  background: url("germania.jpg");
+  background-size: cover;
+  z-index: 1;
+}
+
+.box3:hover{
+  transform: scale(2);
+  background: url("spagna.jpg");
+  background-size: cover;
+  z-index: 1;
+}
+
+.box4:hover{
+  transform: scale(2);
+  background: url("austria.jpg");
+  background-size: cover;
+  z-index: 1;
+}
+
+.box5:hover{
+  transform: scale(2);
+  background: url("rep_cec.jpg");
+  background-size: cover;
+  z-index: 1;
+}
+
+.box6:hover{
+  transform: scale(2);
+  background: url("inghilterra.jpg");
+  background-size: cover;
+  z-index: 1;
+}
